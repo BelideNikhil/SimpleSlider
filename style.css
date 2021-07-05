@@ -23,10 +23,10 @@
 body{
     height:100vh;
     text-align: center;
-    padding: 30px;
+    padding: 20px;
 }
 img{
-    width: 70%;
+    width: 75%;
     filter: blur(var(--blur));
     background: var(--color);
     padding: var(--padding);
@@ -35,6 +35,7 @@ img{
     color: var(--color);
     font-weight: 800;
     font-size: 35px;
+    text-decoration:overline;
 }
 .data{
     padding:10px 10px 20px 10px;
@@ -51,11 +52,14 @@ footer{
     font-weight: 800;
     position: absolute;
     left: 0;
-    bottom: 15px;
+    bottom: 0;
     width: 100%;
 }
 
 @media screen and (max-width:500px) {
+    body{
+        padding: 10px;
+    }
     .data{
         display: flex;
         flex-direction: column;
