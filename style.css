@@ -26,7 +26,7 @@ body{
     padding: 20px;
 }
 img{
-    width: 75%;
+    width: 70%;
     filter: blur(var(--blur));
     background: var(--color);
     padding: var(--padding);
@@ -49,11 +49,11 @@ img{
 }
 
 footer{
-    font-weight: 800;
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: 10px;
     width: 100%;
+    font-weight: 800;
 }
 
 @media screen and (max-width:500px) {
